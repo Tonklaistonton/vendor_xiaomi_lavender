@@ -1646,20 +1646,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libantradio \
-    libsdm-disp-vndapis \
-    libtime_genoff \
-    WfdService \
-    CneApp \
-    IWlanService \
-    TimeService \
-    PowerOffAlarm \
-    QtiTelephonyService \
-    datastatusnotification \
-    imssettings \
-    uceShimService \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    vendor.qti.gnss@3.0-service \
-    WfdCommon
+    libthermalclient
